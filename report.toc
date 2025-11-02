@@ -1,3 +1,9 @@
 \beamer@sectionintoc {1}{DDPM}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{数学原理}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{模型结构}{8}{0}{1}
+\beamer@subsectionintoc {1}{2}{模型结构}{9}{0}{1}
+\beamer@sectionintoc {2}{VAE 压缩模块}{13}{0}{2}
+\beamer@sectionintoc {3}{Latent Diffusion Model}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{LDM Autoencoder}{17}{0}{3}
+\beamer@subsectionintoc {3}{2}{Conditioning Mechanisms}{20}{0}{3}
+\beamer@subsectionintoc {3}{3}{LDM 模型结构}{23}{0}{3}
+\beamer@sectionintoc {4}{Stable SR:基于stable diffusion的超分辨模型}{25}{0}{4}

@@ -17,18 +17,65 @@
 \headcommand {\beamer@framepages {6}{6}}
 \headcommand {\slideentry {1}{1}{4}{7/7}{数学原理}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@subsectionpages {4}{7}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{8}{模型结构}}
-\headcommand {\slideentry {1}{2}{1}{8/8}{模型结构}{0}}
+\headcommand {\slideentry {1}{1}{5}{8/8}{数学原理}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {1}{2}{2}{9/9}{模型结构}{0}}
+\headcommand {\beamer@subsectionpages {4}{8}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{9}{模型结构}}
+\headcommand {\slideentry {1}{2}{1}{9/9}{模型结构}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {1}{2}{3}{10/10}{模型结构}{0}}
+\headcommand {\slideentry {1}{2}{2}{10/10}{模型结构}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {1}{2}{4}{11/11}{模型结构}{0}}
+\headcommand {\slideentry {1}{2}{3}{11/11}{模型结构}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {8}{11}}
-\headcommand {\beamer@sectionpages {2}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\gdef \inserttotalframenumber {8}}
+\headcommand {\slideentry {1}{2}{4}{12/12}{模型结构}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@sectionpages {2}{12}}
+\headcommand {\beamer@subsectionpages {9}{12}}
+\headcommand {\sectionentry {2}{VAE 压缩模块}{13}{VAE 压缩模块}{0}}
+\headcommand {\slideentry {2}{0}{1}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {2}{0}{2}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@sectionpages {13}{14}}
+\headcommand {\beamer@subsectionpages {13}{14}}
+\headcommand {\sectionentry {3}{Latent Diffusion Model}{15}{Latent Diffusion Model}{0}}
+\headcommand {\slideentry {3}{0}{1}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {3}{0}{2}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{17}{LDM Autoencoder}}
+\headcommand {\slideentry {3}{1}{1}{17/17}{LDM Autoencoder}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {3}{1}{2}{18/18}{LDM Autoencoder}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {3}{1}{3}{19/19}{LDM Autoencoder}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\beamer@subsectionpages {17}{19}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{20}{Conditioning Mechanisms}}
+\headcommand {\slideentry {3}{2}{1}{20/20}{Conditioning Mechanisms}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {3}{2}{2}{21/21}{Conditioning Mechanisms}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {3}{2}{3}{22/22}{Conditioning Mechanisms}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@subsectionpages {20}{22}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{23}{LDM 模型结构}}
+\headcommand {\slideentry {3}{3}{1}{23/23}{LDM 模型结构}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\slideentry {3}{3}{2}{24/24}{LDM 模型结构}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\beamer@sectionpages {15}{24}}
+\headcommand {\beamer@subsectionpages {23}{24}}
+\headcommand {\sectionentry {4}{Stable SR:基于stable diffusion的超分辨模型}{25}{Stable SR:基于stable diffusion的超分辨模型}{0}}
+\headcommand {\slideentry {4}{0}{1}{25/25}{}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {4}{0}{2}{26/26}{}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {4}{0}{3}{27/27}{}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\beamer@partpages {1}{27}}
+\headcommand {\beamer@subsectionpages {25}{27}}
+\headcommand {\beamer@sectionpages {25}{27}}
+\headcommand {\beamer@documentpages {27}}
+\headcommand {\gdef \inserttotalframenumber {18}}

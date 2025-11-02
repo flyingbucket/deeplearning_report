@@ -11,6 +11,7 @@
 \setCJKsansfont{Source Han Sans CN}[BoldFont={Source Han Sans CN Bold}]
 % \setCJKmonofont{Sarasa Mono CN}
 
+\input{commands.tex}
 
 % beamer 已加载 hyperref；加 unicode 以支持中文书签
 \hypersetup{unicode}
@@ -185,4 +186,233 @@ x_t = \sqrt{\bar{\alpha}_t} x_0 + \sqrt{1 - \bar{\alpha}_t} \epsilon, \quad \eps
   \end{figure}
 \end{frame}
 
+\begin{frame}{DDPM 示例}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{./images/stochastic_decoding_single.jpg}
+    \caption{DDPM 推理示例}
+  \end{figure}
+\end{frame}
+\section{VAE 压缩模块}
+
+\begin{frame}{VAE 在图像压缩中的核心机制}
+
+\begin{itemize}
+  \item \textbf{结构概览}：
+  \begin{itemize}
+    \item 使用编码器 $E_\phi(x)$ 将高维图像 $x \in \mathbb{R}^{H \times W \times 3}$ 映射为低维潜向量 $z$
+    \item 潜空间分布为 $q_\phi(z|x) = \mathcal{N}(\mu(x), \sigma^2(x))$
+    \item 解码器 $D_\theta(z)$ 将 $z$ 重建为图像 $\hat{x} = D(z)$
+  \end{itemize}
+
+  \item \textbf{压缩意义}：
+  \begin{itemize}
+    \item $z$ 是图像的紧凑编码，维度远小于原始图像
+    \item 潜空间引入正则化（如 KL 散度），避免过度拟合，提升压缩泛化能力
+    \item 使用连续高斯向量（而非固定码本），更适合感知一致性场景
+  \end{itemize}
+
+  \item \textbf{与传统 Autoencoder 的区别}：
+  \begin{itemize}
+    \item VAE 学习的是 \textbf{分布} 而非固定编码，压缩后可进行随机采样
+    \item 提供更好的鲁棒性与潜变量结构控制
+  \end{itemize}
+
+  \item \textbf{压缩 vs 生成}：
+  \begin{itemize}
+    \item 虽然 VAE 为生成设计，但编码器结构天然适合压缩任务
+    \item 实际应用中，如图像重建、感知压缩、表示学习常借助其潜空间能力
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{Latent Diffusion Model}
+
+\begin{frame}{Latent Diffusion Model (LDM): 功能概览}
+
+\begin{itemize}
+  \item \textbf{计算高效}：
+  \begin{itemize}
+    \item 在\textbf{潜空间（latent space）}中进行扩散建模，避免在高维像素空间中处理。
+    \item 显著\textbf{降低训练与推理成本}，支持低资源环境运行。
+  \end{itemize}
+
+  \item \textbf{灵活的条件生成（Conditional Generation）}：
+  \begin{itemize}
+    \item 引入 \textbf{Cross-Attention 模块}，实现多种输入条件的控制：
+    \begin{itemize}
+      \item 文本（Text-to-Image）
+      \item 边界框（Layout-guided generation）
+      \item 掩膜图像（Inpainting）
+      \item 类别标签（Class-conditional generation）
+    \end{itemize}
+  \end{itemize}
+  
+  \item \textbf{多任务适应性强}：
+  \begin{itemize}
+    \item 同一模型适用于：
+    \begin{itemize}
+      \item 无条件图像生成（Unconditional Generation）
+      \item 图像修复（Image Inpainting）
+      \item 图像增强与重建（e.g., Super-resolution）
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\subsection{LDM Autoencoder}
+\begin{frame}{LDM 中的 Autoencoder：压缩图像感知结构}
+
+\textbf{目的：} 将图像 $x \in \mathbb{R}^{H \times W \times 3}$ 压缩为结构化潜空间 $z \in \mathbb{R}^{h \times w \times c}$，便于高效训练扩散模型。
+
+\vspace{0.8em}
+
+\textbf{结构组成：}
+\begin{itemize}
+  \item \textbf{Encoder} $E(x) \rightarrow z$：多层卷积和残差模块（细节参见补充材料或代码）
+  \item \textbf{Decoder} $D(z) \rightarrow \tilde{x}$：恢复图像
+  \item 下采样比例 $f = H/h = W/w$, 例如 $f = 4, 8, 16$
+\end{itemize}
+
+\vspace{0.8em}
+
+\textbf{训练目标：}
+\begin{itemize}
+  \item 使用 \textbf{感知损失（perceptual loss）}：保持图像语义细节
+  \item 使用 \textbf{PatchGAN 对抗损失}：增强局部真实性，避免模糊
+  \item 最小化重建误差 $\mathcal{L}_{\text{rec}}(x, \tilde{x})$
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Autoencoder 的正则化与训练策略}
+
+\textbf{潜空间正则化目的：} 避免高方差、非结构化的 latent 表示，增强生成稳定性。
+
+\vspace{0.6em}
+
+\textbf{两种正则化方式：}
+\begin{itemize}
+  \item \textbf{KL 正则（KL-reg.）}：
+    \begin{itemize}
+      \item 将 $q_E(z|x) = \mathcal{N}(\mu, \sigma^2)$ 推近标准高斯 $\mathcal{N}(0, I)$
+      \item 类似 VAE，权重非常小（$\sim 10^{-6}$），避免损害重建质量
+    \end{itemize}
+  \item \textbf{VQ 正则（VQ-reg.）}：
+    \begin{itemize}
+      \item 使用矢量量化 codebook，构造离散 latent 空间（类似 VQGAN）
+      \item 量化层嵌入解码器首层，编码器输出为连续 $z$
+    \end{itemize}
+\end{itemize}
+
+\vspace{0.8em}
+
+\textbf{完整训练目标函数：}
+\[
+\mathcal{L}_{\text{AE}} = \min_{E,D} \max_{\psi} \left[
+\mathcal{L}_{\text{rec}}(x, D(E(x))) - \mathcal{L}_{\text{adv}} + \log D_\psi(x) + \mathcal{L}_{\text{reg}}
+\right]
+\]
+
+\textbf{判别器：} Patch-based GAN 判别器 $D_\psi$（仅在训练时使用）
+
+\end{frame}
+\subsection{Conditioning Mechanisms}
+
+\begin{frame}{LDM 的条件生成机制：灵活控制图像合成}
+
+\textbf{目标：} 扩散模型学习条件分布 $p(z \mid y)$，在潜空间中实现\textbf{多模态控制}（如文本、图像、语义图等）。
+
+\vspace{0.8em}
+
+\textbf{核心思想：}
+\begin{itemize}
+  \item 将条件信息 $y$ 融入扩散模型 $\epsilon_\theta(z_t, t, y)$ 中。
+  \item 引入专门的 \textbf{条件编码器} $\conditioner(y)$，将 $y$ 投影为中间表示。
+  \item 使用 \textbf{Cross-Attention 模块}，将 $\conditioner(y)$ 融入 UNet 的中间层。
+\end{itemize}
+
+\vspace{0.8em}
+
+\textbf{适用任务：}
+\begin{itemize}
+  \item 文本到图像（text-to-image）
+  \item 图像修复（inpainting）
+  \item 图像翻译（image-to-image）
+  \item 语义图控制合成
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Cross-Attention 条件注入机制与训练目标}
+
+\textbf{Cross-Attention 注入方式：}
+
+\vspace{0.5em}
+\begin{itemize}
+  \item 条件编码器输出 $\conditioner(y) \in \mathbb{R}^{M \times d_\tau}$。
+  \item 在 UNet 中层使用 Attention：
+  \[
+  \text{Attention}(Q, K, V) = \text{softmax}\left( \frac{QK^T}{\sqrt{d}} \right) \cdot V
+  \]
+  \item 投影定义：
+  \[
+  Q = W_Q \cdot \varphi_i(z_t), \quad
+  K = W_K \cdot \conditioner(y), \quad
+  V = W_V \cdot \conditioner(y)
+  \]
+\end{itemize}
+
+\textbf{训练目标函数（条件扩散损失）}：
+\[
+\mathcal{L}_{\text{cond}} = \mathbb{E}_{x, y, \epsilon, t} \left[
+\left\| \epsilon - \epsilon_\theta(z_t, t, \conditioner(y)) \right\|_2^2
+\right]
+\]
+\end{frame}
+\subsection{LDM 模型结构}
+\begin{frame}{LDM 模型整体架构图}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{./images/LDM_model.pdf}
+    \caption{LDM 模型整体架构图}
+  \end{figure}
+\end{frame}
+
+\section{Stable SR:基于stable diffusion的超分辨模型}
+\begin{frame}{Stable SR 模型结构}
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{./images/StableSR.png}
+    \caption{Stable SR 模型结构图}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{SFT 调制机制公式详解}
+
+\textbf{调制公式：}
+\[
+\hat{F}_{\text{dif}}^n = (1 + \alpha^n) \odot F^n_{\text{dif}} + \beta^n
+\]
+\textbf{含义解析：}
+\begin{itemize}
+  \item $F^n_{\text{dif}}$：原始 UNet 在第 $n$ 层生成的特征图。
+  \item $F^n$：由 LR 图像提取的结构特征（通过 Time-Aware Encoder 获得）。
+  \item $M^n_\theta$：一个小型卷积网络，用于从 $F^n$ 生成调制参数：
+  \[
+  (\alpha^n, \beta^n) = M^n_\theta(F^n)
+  \]
+  \item $\alpha^n$：**缩放系数**，控制每个通道的增强或抑制。
+  \item $\beta^n$：**偏置项**，引入可控偏移以增强表达能力。
+\end{itemize}
+
+\textbf{调制作用：}
+\begin{itemize}
+  \item 逐像素、逐通道地对原始特征图进行 \textbf{仿射变换}。
+  \item 引入 LR 图像的多尺度语义信息，精细控制特征图生成过程。
+\end{itemize}
+
+\end{frame}
 \end{document}
