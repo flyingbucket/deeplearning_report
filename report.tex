@@ -1,0 +1,188 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{metropolis}
+\metroset{subsectionpage=progressbar}
+
+\usefonttheme{professionalfonts} % 使用系统/自定字体
+
+
+% === 字体设置 ===
+\usepackage[UTF8,scheme=plain,fontset=none]{ctex}
+\setCJKmainfont{Source Han Serif CN}[BoldFont={Source Han Serif CN Bold}]
+\setCJKsansfont{Source Han Sans CN}[BoldFont={Source Han Sans CN Bold}]
+% \setCJKmonofont{Sarasa Mono CN}
+
+
+% beamer 已加载 hyperref；加 unicode 以支持中文书签
+\hypersetup{unicode}
+
+% define paragraph
+\providecommand{\paragraph}[1]{\smallskip\textbf{#1}\par}
+
+% 常用包
+\usepackage{longtable,booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+% \graphicspath{{.}{./figs/}{./images/}{./images_in_paper/}}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{svg}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{threeparttable}
+
+% 算法环境（与 beamer 兼容）
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}  % 提供 algorithmic 环境、\State 等
+% 可选：微调 algorithmic 缩进
+\algrenewcommand\algorithmicindent{0.8em}
+
+% 数学粗体与梯度符号
+\usepackage{bm} % \boldsymbol
+\newcommand{\bx}{\mathbf{x}}
+\newcommand{\bz}{\mathbf{z}}
+\newcommand{\bI}{\mathbf{I}}
+\newcommand{\bzero}{\mathbf{0}}
+\newcommand{\bepsilon}{\boldsymbol{\epsilon}}
+\newcommand{\grad}{\nabla}
+% 超链接（beamer 已加载 hyperref，这里只补选项）
+% \hypersetup{unicode=true}
+
+% 编号风格
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{.}
+
+\title{扩散模型在图像重建与生成任务中的应用}
+\author{李孟霖}
+\date{\today}
+%---Document Begins---
+\begin{document}
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+\section{DDPM}
+\begin{frame}
+Denoising Diffusion Probabilistic Models(DDPM)通过逐步添加噪声破坏图像，
+再用反向过程逐步去噪重建图像。
+该模型结合了变分下界优化和Langevin动力学的去噪得分匹配，实现高质量图像生成。
+\end{frame}
+\subsection{数学原理}
+
+\begin{frame}{Diffusion Model}
+  \textbf{前向过程 (Forward Process)}: \\
+  给定原始图像 $x_0 \sim q(x_0)$，前向过程逐步添加高斯噪声，构成一个固定的马尔可夫链：
+  \[
+    q(x_{1:T} | x_0) = \prod_{t=1}^T q(x_t | x_{t-1}), \quad q(x_t | x_{t-1}) = \mathcal{N}(\sqrt{1 - \beta_t} x_{t-1}, \beta_t I)
+  \]
+  可直接从 $x_0$ 采样出任意时刻 $x_t$：
+  \[
+    q(x_t | x_0) = \mathcal{N}(\sqrt{\bar{\alpha}_t} x_0, (1 - \bar{\alpha}_t) I)
+  \]
+  其中 $\alpha_t = 1 - \beta_t$, $\bar{\alpha}_t = \prod_{s=1}^t \alpha_s$
+
+  \vspace{0.5em}
+  \textbf{反向过程 (Reverse Process)}: \\
+  从纯噪声 $x_T \sim \mathcal{N}(0, I)$ 开始，反向过程学习一个去噪马尔可夫链：
+  \[
+    p_\theta(x_{0:T}) = p(x_T) \prod_{t=1}^T p_\theta(x_{t-1} | x_t), \quad p_\theta(x_{t-1} | x_t) = \mathcal{N}(\mu_\theta(x_t, t), \Sigma_\theta(x_t, t))
+  \]
+  通过神经网络学习均值和方差，实现高质量图像的逐步重建。
+\end{frame}
+
+\begin{frame}{DDPM 损失函数构造与简化}
+
+\textbf{目标：} 利用变分下界（ELBO），设计可优化的训练损失函数，以学习从噪声 $x_T$ 逐步生成图像 $x_0$ 的反向过程。
+
+\textbf{1. 变分下界（ELBO）分解：}
+\[
+\log p_\theta(x_0) \geq \text{ELBO} = L_T + \sum_{t=2}^T L_{t-1} + L_0
+\]
+- $L_T$ 是固定常数，可忽略
+- $L_{t-1}$ 是主要的训练目标项（KL 散度）
+- $L_0$ 是重建项（有时也忽略）
+
+\textbf{2. 反向过程建模为高斯分布：}
+\[
+p_\theta(x_{t-1}|x_t) = \mathcal{N}(\mu_\theta(x_t, t), \sigma_t^2 I)
+\]
+- 其中 $\sigma_t^2$ 为固定超参数，不学习
+- $\mu_\theta$ 为模型（如 U-Net）输出
+\end{frame}
+\begin{frame}{DDPM 损失函数构造与简化}
+\textbf{3. 损失函数重写为预测后验均值：}
+\[
+L_{t-1} = \mathbb{E} \left[ \frac{1}{2\sigma_t^2} \| \mu_\theta(x_t, t) - \tilde{\mu}_t(x_t, x_0) \|^2 \right] + C
+\]
+
+\textbf{4. 使用重参数化将问题转化为噪声预测：}
+\[
+x_t = \sqrt{\bar{\alpha}_t} x_0 + \sqrt{1 - \bar{\alpha}_t} \epsilon, \quad \epsilon \sim \mathcal{N}(0, I)
+\]
+
+\textbf{最终损失函数简化为：}
+\[
+\mathcal{L}_{\text{simple}} = \mathbb{E}_{x_0, \epsilon, t} \left[ \left\| \epsilon - \epsilon_\theta(x_t, t) \right\|^2 \right]
+\]
+
+\textbf{结论：} 模型训练目标是拟合噪声 $\epsilon$，本质上是一个时间条件的\textbf{去噪任务}。
+
+\end{frame}
+
+\begin{frame}{algorithm}
+
+\algrenewcommand\algorithmicindent{0.5em}%
+\begin{figure}[t]
+\begin{minipage}[t]{0.495\textwidth}
+\begin{algorithm}[H]
+  \caption{Training} \label{alg:training}
+  \small
+  \begin{algorithmic}[1]
+    \Repeat
+      \State $\bx_0 \sim q(\bx_0)$
+      \State $t \sim \mathrm{Uniform}(\{1, \dotsc, T\})$
+      \State $\bepsilon\sim\mathcal{N}(\bzero,\bI)$
+      \State Take gradient descent step on
+      \Statex $\qquad \grad_\theta \left\| \bepsilon - \bepsilon_\theta(\sqrt{\bar\alpha_t} \bx_0 + \sqrt{1-\bar\alpha_t}\bepsilon, t) \right\|^2$
+    \Until{converged}
+  \end{algorithmic}
+\end{algorithm}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.495\textwidth}
+\begin{algorithm}[H]
+  \caption{Sampling} \label{alg:sampling}
+  \small
+  \begin{algorithmic}[1]
+    \vspace{.04in}
+    \State $\bx_T \sim \mathcal{N}(\bzero, \bI)$
+    \For{$t=T, \dotsc, 1$}
+      \State $\bz \sim \mathcal{N}(\bzero, \bI)$ if $t > 1$, else $\bz = \bzero$
+      \State $\bx_{t-1} = \frac{1}{\sqrt{\alpha_t}}\left( \bx_t - \frac{1-\alpha_t}{\sqrt{1-\bar\alpha_t}} \bepsilon_\theta(\bx_t, t) \right) + \sigma_t \bz$
+    \EndFor
+    \State \textbf{return} $\bx_0$
+    \vspace{.04in}
+  \end{algorithmic}
+\end{algorithm}
+\end{minipage}
+\vspace{-1em}
+\end{figure}
+\end{frame}
+
+\subsection{模型结构}
+\begin{frame}{DDPM 模型结构（U-Net）}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/DDPM_UNet.png}
+    \caption{DDPM 中用于噪声预测的 U-Net 架构示意图}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{时间步条件的注入方式}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{images/DDPM_down-up-block.png}
+    \caption{U-Net 层内部通过 Add 操作将时间步嵌入融合到特征图中}
+  \end{figure}
+\end{frame}
+
+\end{document}
