@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.23)  3 NOV 2025 11:04
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.23)  3 NOV 2025 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1215,7 +1215,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [4
 
 ]
-Overfull \vbox (44.56213pt too high) detected at line 93
+Overfull \vbox (44.56213pt too high) detected at line 96
  []
 
 
@@ -1242,7 +1242,7 @@ Overfull \vbox (44.56213pt too high) detected at line 93
 File: images/DDPM_UNet.png Graphic file (type bmp)
 <images/DDPM_UNet.png>
 
-Overfull \vbox (53.22586pt too high) detected at line 181
+Overfull \vbox (53.22586pt too high) detected at line 184
  []
 
 
@@ -1253,7 +1253,7 @@ Overfull \vbox (53.22586pt too high) detected at line 181
 File: images/DDPM_down-up-block.png Graphic file (type bmp)
 <images/DDPM_down-up-block.png>
 
-Overfull \vbox (59.03542pt too high) detected at line 189
+Overfull \vbox (59.03542pt too high) detected at line 192
  []
 
 
@@ -1288,7 +1288,7 @@ File: ./images/stochastic_decoding_single.jpg Graphic file (type bmp)
 [17
 
 ]
-Overfull \vbox (5.00331pt too high) detected at line 289
+Overfull \vbox (5.00331pt too high) detected at line 292
  []
 
 
@@ -1296,7 +1296,7 @@ Overfull \vbox (5.00331pt too high) detected at line 289
 [18
 
 ]
-Overfull \vbox (21.94763pt too high) detected at line 322
+Overfull \vbox (21.94763pt too high) detected at line 325
  []
 
 
@@ -1308,7 +1308,7 @@ Overfull \vbox (21.94763pt too high) detected at line 322
 [20
 
 ]
-Overfull \vbox (18.85838pt too high) detected at line 348
+Overfull \vbox (18.85838pt too high) detected at line 351
  []
 
 
@@ -1327,7 +1327,7 @@ Overfull \vbox (18.85838pt too high) detected at line 348
 File: ./images/LDM_model.pdf Graphic file (type pdf)
 <./images/LDM_model.pdf>
 
-Overfull \vbox (23.22382pt too high) detected at line 383
+Overfull \vbox (23.22382pt too high) detected at line 386
  []
 
 
@@ -1346,7 +1346,7 @@ File: ./images/StableSR.png Graphic file (type bmp)
 [26
 
 ]
-Overfull \vbox (25.39024pt too high) detected at line 419
+Overfull \vbox (25.39024pt too high) detected at line 422
  []
 
 
@@ -1373,11 +1373,11 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 537.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 540.
 
 
 LaTeX Font Warning: Font shape `TU/SourceHanSansCN(0)/m/it' undefined
-(Font)              using `TU/SourceHanSansCN(0)/m/n' instead on input line 537.
+(Font)              using `TU/SourceHanSansCN(0)/m/n' instead on input line 540.
 
 
 
@@ -1418,4 +1418,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  128i,13n,126p,1873b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (31 pages, 163736 bytes).
+Output written on report.xdv (31 pages, 164408 bytes).

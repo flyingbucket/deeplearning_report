@@ -67,6 +67,9 @@
 \begin{frame}
 Denoising Diffusion Probabilistic Models(DDPM)通过逐步添加噪声破坏图像，
 再用反向过程逐步去噪重建图像。
+
+模型学习从纯噪声去噪得到图片的过程，从而实现由任意纯高斯噪声生成图片的功能。
+
 该模型结合了变分下界优化和Langevin动力学的去噪得分匹配，实现高质量图像生成。
 \end{frame}
 \subsection{数学原理}

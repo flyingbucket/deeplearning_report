@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1762139046.47218 "report.xdv" "report.pdf" "report" 1762139048.35062 0
-  "report.xdv" 1762139046.39846 163736 65f768f63c02a81c0790f46a1ef66b75 "xelatex"
+["xdvipdfmx"] 1762139969.63634 "report.xdv" "report.pdf" "report" 1762139971.5463 0
+  "report.xdv" 1762139969.561 164408 0ee2d5a60529df0ce640fe0ba96f1729 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1762139044.91322 "report.tex" "report.xdv" "report" 1762139048.34852 0
+["xelatex"] 1762139968.07059 "report.tex" "report.xdv" "report" 1762139971.54272 0
   "/home/flyingbucket/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/home/flyingbucket/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/home/flyingbucket/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -264,11 +264,11 @@
   "images/LDM_model.pdf" 1762097921.15306 169192 3a744efca3788a3b57ddbad688e6b460 ""
   "images/StableSR.png" 1762101784.56358 1779060 f84e45a5c44fc80ef59528c04e550d44 ""
   "images/stochastic_decoding_single.jpg" 1762089666.59967 577113 ffcfd5dd7297bd062f4c83910223cb08 ""
-  "report.aux" 1762139046.39643 8173 8f9ea4c0d275273e91aa9099e7a9329a "xelatex"
-  "report.nav" 1762139046.39846 4608 e5e8a71794926b7de2cbeb666d99624c "xelatex"
-  "report.out" 1762139046.39846 1166 a28dd3bb530338526e4b5887d12550af "xelatex"
-  "report.tex" 1762139043.5715 19859 b42c6cf2a6828160530a2a5346202dec ""
-  "report.vrb" 1762139046.29583 631 4f7b791753d3831656d2f9398ea6fcdd "xelatex"
+  "report.aux" 1762139969.56023 8173 8f9ea4c0d275273e91aa9099e7a9329a "xelatex"
+  "report.nav" 1762139969.561 4608 e5e8a71794926b7de2cbeb666d99624c "xelatex"
+  "report.out" 1762139969.561 1166 a28dd3bb530338526e4b5887d12550af "xelatex"
+  "report.tex" 1762139964.39111 19976 b7fb080f7fac1669c4c4637495603c4b ""
+  "report.vrb" 1762139969.45888 631 4f7b791753d3831656d2f9398ea6fcdd "xelatex"
   (generated)
   "report.aux"
   "report.log"
