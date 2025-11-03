@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1762104984.29704 "report.xdv" "report.pdf" "report" 1762104986.21789 0
-  "report.xdv" 1762104984.22233 119596 0736d907a72a96ecc9fbfc9835996894 "xelatex"
+["xdvipdfmx"] 1762139046.47218 "report.xdv" "report.pdf" "report" 1762139048.35062 0
+  "report.xdv" 1762139046.39846 163736 65f768f63c02a81c0790f46a1ef66b75 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1762104982.86647 "report.tex" "report.xdv" "report" 1762104986.21559 0
+["xelatex"] 1762139044.91322 "report.tex" "report.xdv" "report" 1762139048.34852 0
   "/home/flyingbucket/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/home/flyingbucket/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/home/flyingbucket/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -68,8 +68,10 @@
   "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex" 1755201859 35251 5ff5b5b310c5ac882610e0ccc99095e7 ""
   "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex" 1673816307 22012 81b34a0aa8fa1a6158cc6220b00e4f10 ""
   "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex" 1601326656 8893 e851de2175338fdf7c17f3e091d94618 ""
+  "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex" 1601326656 3937 3f208572dd82c71103831da976d74f1a ""
   "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex" 1608933718 11518 738408f795261b70ce8dd47459171309 ""
   "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex" 1755201859 186859 0445d9a41a87648b4723e04765409541 ""
+  "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex" 1601326656 58801 1e750fb0692eb99aaac45698bbec96b1 ""
   "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex" 1601326656 32995 ac577023e12c0e4bd8aa420b2e852d1a ""
   "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex" 1557692582 3063 8c415c68a0f3394e45cfeca0b65f6ee6 ""
   "/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex" 1673816307 949 cea70942e7b7eddabfb3186befada2e6 ""
@@ -262,10 +264,11 @@
   "images/LDM_model.pdf" 1762097921.15306 169192 3a744efca3788a3b57ddbad688e6b460 ""
   "images/StableSR.png" 1762101784.56358 1779060 f84e45a5c44fc80ef59528c04e550d44 ""
   "images/stochastic_decoding_single.jpg" 1762089666.59967 577113 ffcfd5dd7297bd062f4c83910223cb08 ""
-  "report.aux" 1762104984.22091 7535 72cb0187ad121113aaf8c9ec2dd2edbb "xelatex"
-  "report.nav" 1762104984.22233 4240 5a1ca941998e6602ea9fc426137834ae "xelatex"
-  "report.out" 1762104984.22233 1166 a28dd3bb530338526e4b5887d12550af "xelatex"
-  "report.tex" 1762104980.71261 13955 75a7721182ce3ac845e58c0a2f8c8ace ""
+  "report.aux" 1762139046.39643 8173 8f9ea4c0d275273e91aa9099e7a9329a "xelatex"
+  "report.nav" 1762139046.39846 4608 e5e8a71794926b7de2cbeb666d99624c "xelatex"
+  "report.out" 1762139046.39846 1166 a28dd3bb530338526e4b5887d12550af "xelatex"
+  "report.tex" 1762139043.5715 19859 b42c6cf2a6828160530a2a5346202dec ""
+  "report.vrb" 1762139046.29583 631 4f7b791753d3831656d2f9398ea6fcdd "xelatex"
   (generated)
   "report.aux"
   "report.log"
@@ -273,5 +276,7 @@
   "report.out"
   "report.snm"
   "report.toc"
+  "report.vrb"
   "report.xdv"
   (rewritten before read)
+  "report.vrb"

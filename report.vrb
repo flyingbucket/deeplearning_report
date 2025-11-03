@@ -1,0 +1,9 @@
+\frametitle{EncoderUNetModelWT}
+\small
+\textbf{整体思路}\\
+编码路径逐层下采样并在指定分辨率插入注意力；每当分辨率变化，就“截取”下采样前的特征；瓶颈处理后把所有尺度通过 \texttt{fea\_tran} 统一到 \texttt{out\_channels}，以分辨率字符串为键打包返回。\\[6pt]
+
+\textbf{实现细节提示}\\
+\(\bullet\) \texttt{attention\_resolutions} 用下采样倍率 \texttt{ds} 判断是否插入 Attn\\
+\(\bullet\) \texttt{fea\_tran} 与收集到的尺度一一对应（长度断言）\\
+\(\bullet\) 支持 \texttt{fp16/fp32} 转换（主要作用于编码与瓶颈）

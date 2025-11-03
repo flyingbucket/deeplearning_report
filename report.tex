@@ -23,6 +23,8 @@
 \usepackage{longtable,booktabs}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta}
 % \graphicspath{{.}{./figs/}{./images/}{./images_in_paper/}}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -414,5 +416,126 @@ x_t = \sqrt{\bar{\alpha}_t} x_0 + \sqrt{1 - \bar{\alpha}_t} \epsilon, \quad \eps
   \item 引入 LR 图像的多尺度语义信息，精细控制特征图生成过程。
 \end{itemize}
 
+\end{frame}
+
+
+% --- 第 1 页：概念 + 结构要点（纯文字） ---
+\begin{frame}{Time-Aware Encoder：EncoderUNetModelWT（概念与结构）}
+\small
+\textbf{结构}\\
+半个 UNet 编码器：按 \alert{时间步 $t$} 条件化的多尺度特征抽取器；无解码头。返回各分辨率的特征并统一到 \texttt{out\_channels}，供后续重建/融合模块使用。\\[8pt]
+
+\textbf{输入 / 输出}\\
+\(\bullet\) 输入：\(\mathbf{x}\in\mathbb{R}^{N\times C\times H\times W}\)，时间步 \(t\)（或 \texttt{timesteps}）\\
+\(\bullet\) 输出：\texttt{dict}，键为分辨率（如 \texttt{"64"}、\texttt{"32"}…），值为 \(\mathbb{R}^{N\times \texttt{out\_channels}\times h\times w}\) 的特征张量\\[8pt]
+
+\textbf{重要组件}\\
+\(\bullet\) \textbf{Time Embed}：MLP(\texttt{model\_channels} \(\rightarrow 4\times\)) 注入所有 ResBlock/Attention\\
+\(\bullet\) \textbf{编码路径}：按 \texttt{channel\_mult} 堆叠 \texttt{num\_res\_blocks}；命中 \texttt{attention\_resolutions} 时插自注意力\\
+\(\bullet\) \textbf{Bottleneck}：ResBlock \(\rightarrow\) Attn \(\rightarrow\) ResBlock\\
+\(\bullet\) \textbf{统一投影}：对每个尺度的特征用时序条件 ResBlock 映射到 \texttt{out\_channels}\\[8pt]
+
+\end{frame}
+
+% --- 第 2 页：前向流程（伪代码） ---
+\begin{frame}[fragile]{EncoderUNetModelWT}
+\small
+\textbf{整体思路}\\
+编码路径逐层下采样并在指定分辨率插入注意力；每当分辨率变化，就“截取”下采样前的特征；瓶颈处理后把所有尺度通过 \texttt{fea\_tran} 统一到 \texttt{out\_channels}，以分辨率字符串为键打包返回。\\[6pt]
+
+\textbf{实现细节提示}\\
+\(\bullet\) \texttt{attention\_resolutions} 用下采样倍率 \texttt{ds} 判断是否插入 Attn\\
+\(\bullet\) \texttt{fea\_tran} 与收集到的尺度一一对应（长度断言）\\
+\(\bullet\) 支持 \texttt{fp16/fp32} 转换（主要作用于编码与瓶颈）
+\end{frame}
+
+% --- 第 3 页：结构示意图（单页图片） ---
+\begin{frame}{EncoderUNetModelWT：结构示意图}
+\centering
+\resizebox{0.94\textwidth}{!}{%
+\begin{tikzpicture}[every node/.style={font=\tiny}]
+% 输入
+\node[draw, rounded corners, minimum width=1.9cm, minimum height=0.55cm, fill=gray!10]
+  (inp) {Input $x$ ($H\times W$)};
+
+% 第一层
+\node[draw, rounded corners, minimum width=2.0cm, minimum height=0.65cm, right=0.8cm of inp, fill=blue!10]
+  (l1) {ResBlock(s)};
+\draw[->] (inp) -- (l1);
+
+% 下采样1前快照
+\node[draw, dashed, rounded corners, minimum width=1.6cm, minimum height=0.5cm, below=0.6cm of l1, fill=white]
+  (s1) {save $(H\!\times\! W)$};
+\draw[->, dashed] (l1.south) -- (s1.north);
+
+% 下采样1
+\node[draw, rounded corners, minimum width=1.5cm, minimum height=0.55cm, right=0.8cm of l1, fill=blue!10]
+  (down1) {Down};
+\draw[->] (l1) -- (down1);
+
+% 第二层（含注意力）
+\node[draw, rounded corners, minimum width=2.1cm, minimum height=0.65cm, right=0.8cm of down1, fill=blue!10]
+  (l2) {ResBlock(s) + Attn?};
+\draw[->] (down1) -- (l2);
+
+\node[draw, dashed, rounded corners, minimum width=1.6cm, minimum height=0.5cm, below=0.6cm of l2, fill=white]
+  (s2) {save $(\frac{H}{2}\!\times\!\frac{W}{2})$};
+\draw[->, dashed] (l2.south) -- (s2.north);
+
+% 下采样2
+\node[draw, rounded corners, minimum width=1.5cm, minimum height=0.55cm, right=0.8cm of l2, fill=blue!10]
+  (down2) {Down};
+\draw[->] (l2) -- (down2);
+
+% 第三层
+\node[draw, rounded corners, minimum width=2.0cm, minimum height=0.65cm, right=0.8cm of down2, fill=blue!10]
+  (l3) {ResBlock(s) + Attn?};
+\draw[->] (down2) -- (l3);
+
+\node[draw, dashed, rounded corners, minimum width=1.8cm, minimum height=0.5cm, below=0.6cm of l3, fill=white]
+  (s3) {save $(\frac{H}{4}\!\times\!\frac{W}{4})$};
+\draw[->, dashed] (l3.south) -- (s3.north);
+
+% bottleneck
+\node[draw, rounded corners, minimum width=2.1cm, minimum height=0.7cm, right=0.9cm of l3, fill=orange!15]
+  (mid) {Res $\rightarrow$ Attn $\rightarrow$ Res};
+\draw[->] (l3) -- (mid);
+
+\node[draw, dashed, rounded corners, minimum width=1.6cm, minimum height=0.5cm, below=0.6cm of mid, fill=white]
+  (sb) {save (BN)};
+\draw[->, dashed] (mid.south) -- (sb.north);
+
+% fea_tran heads（压到更近的位置）
+\node[draw, rounded corners, minimum width=1.7cm, minimum height=0.55cm, below=2.2cm of s2, fill=green!12]
+  (head1) {ResBlock$\Rightarrow$out\_ch};
+\node[draw, rounded corners, minimum width=1.7cm, minimum height=0.55cm, right=0.35cm of head1, fill=green!12]
+  (head2) {ResBlock$\Rightarrow$out\_ch};
+\node[draw, rounded corners, minimum width=1.7cm, minimum height=0.55cm, right=0.35cm of head2, fill=green!12]
+  (head3) {ResBlock$\Rightarrow$out\_ch};
+\node[draw, rounded corners, minimum width=1.7cm, minimum height=0.55cm, right=0.35cm of head3, fill=green!12]
+  (headb) {ResBlock$\Rightarrow$out\_ch};
+
+\draw[->, dashed] (s1) -- ++(0,-0.5) -| (head1.north);
+\draw[->, dashed] (s2) -- ++(0,-0.7) -| (head2.north);
+\draw[->, dashed] (s3) -- ++(0,-0.9) -| (head3.north);
+\draw[->, dashed] (sb) -- ++(0,-1.2) -| (headb.north);
+
+% time embedding（上置且连线更紧凑）
+\node[draw, rounded corners, minimum width=2.0cm, minimum height=0.6cm, above=0.8cm of l2, fill=red!10]
+  (temb) {Time Embedding (t)};
+
+\draw[->, dotted] (temb.south) .. controls +(0,-0.45) and +(0,0.5) .. (l1.north);
+\draw[->, dotted] (temb.south) .. controls +(0,-0.7) and +(0,0.5) .. (l2.north);
+\draw[->, dotted] (temb.south) .. controls +(0,-0.95) and +(0,0.5) .. (l3.north);
+\draw[->, dotted] (temb.south) .. controls +(0,-1.2) and +(0,0.5) .. (mid.north);
+\draw[->, dotted] (temb.east) -- ++(1.5,0) |- (head2.north);
+\end{tikzpicture}
+}% end resizebox
+\vspace{2pt}
+
+\footnotesize \textit{注：虚线箭头表示“保存该尺度特征”；点划线表示时间嵌入注入。}
+\end{frame}
+\begin{frame}[standout]
+  谢谢大家！
 \end{frame}
 \end{document}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.23)  3 NOV 2025 01:36
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.23)  3 NOV 2025 11:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -963,18 +963,26 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count408
 \@lastruleclass=\count409
 \@thisrulewidth=\dimen363
+) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen364
+\pgfarrowlength=\dimen365
+\pgfarrowwidth=\dimen366
+\pgfarrowlinewidth=\dimen367
 ) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen364
-\captionmargin=\dimen365
-\caption@leftmargin=\dimen366
-\caption@rightmargin=\dimen367
-\caption@width=\dimen368
-\caption@indent=\dimen369
-\caption@parindent=\dimen370
-\caption@hangindent=\dimen371
+\caption@tempdima=\dimen368
+\captionmargin=\dimen369
+\caption@leftmargin=\dimen370
+\caption@rightmargin=\dimen371
+\caption@width=\dimen372
+\caption@indent=\dimen373
+\caption@parindent=\dimen374
+\caption@hangindent=\dimen375
 Package caption Info: beamer document class detected.
  (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/caption/caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the beamer document classes (AR)
@@ -993,7 +1001,8 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count412
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count413
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/float/float.sty
+)
+(/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count414
 \float@exts=\toks51
@@ -1006,8 +1015,7 @@ Package: svg 2020/11/26 v2.02k (include SVG pictures)
 Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
-)
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
@@ -1026,9 +1034,9 @@ Package transparent Warning: Loading aborted, because pdfTeX is not running in P
 
 )) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
-\col@sep=\dimen372
+\col@sep=\dimen376
 \ar@mcellbox=\box95
-\extrarowheight=\dimen373
+\extrarowheight=\dimen377
 \NC@list=\toks53
 \extratabsurround=\skip91
 \backup@length=\skip92
@@ -1101,26 +1109,26 @@ Package fontspec Info:
  (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1156,7 +1164,7 @@ LaTeX Font Info:    ... okay on input line 60.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 62.
 (./report.out) (./report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
@@ -1179,7 +1187,7 @@ Package caption Info: float package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./report.nav)
-Overfull \vbox (15.63992pt too high) detected at line 63
+Overfull \vbox (15.63992pt too high) detected at line 65
  []
 
 
@@ -1187,11 +1195,11 @@ Overfull \vbox (15.63992pt too high) detected at line 63
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
  (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
  (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1207,7 +1215,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [4
 
 ]
-Overfull \vbox (44.56213pt too high) detected at line 91
+Overfull \vbox (44.56213pt too high) detected at line 93
  []
 
 
@@ -1234,7 +1242,7 @@ Overfull \vbox (44.56213pt too high) detected at line 91
 File: images/DDPM_UNet.png Graphic file (type bmp)
 <images/DDPM_UNet.png>
 
-Overfull \vbox (53.22586pt too high) detected at line 179
+Overfull \vbox (53.22586pt too high) detected at line 181
  []
 
 
@@ -1245,7 +1253,7 @@ Overfull \vbox (53.22586pt too high) detected at line 179
 File: images/DDPM_down-up-block.png Graphic file (type bmp)
 <images/DDPM_down-up-block.png>
 
-Overfull \vbox (59.03542pt too high) detected at line 187
+Overfull \vbox (59.03542pt too high) detected at line 189
  []
 
 
@@ -1280,7 +1288,7 @@ File: ./images/stochastic_decoding_single.jpg Graphic file (type bmp)
 [17
 
 ]
-Overfull \vbox (5.00331pt too high) detected at line 287
+Overfull \vbox (5.00331pt too high) detected at line 289
  []
 
 
@@ -1288,7 +1296,7 @@ Overfull \vbox (5.00331pt too high) detected at line 287
 [18
 
 ]
-Overfull \vbox (21.94763pt too high) detected at line 320
+Overfull \vbox (21.94763pt too high) detected at line 322
  []
 
 
@@ -1300,7 +1308,7 @@ Overfull \vbox (21.94763pt too high) detected at line 320
 [20
 
 ]
-Overfull \vbox (18.85838pt too high) detected at line 346
+Overfull \vbox (18.85838pt too high) detected at line 348
  []
 
 
@@ -1319,7 +1327,7 @@ Overfull \vbox (18.85838pt too high) detected at line 346
 File: ./images/LDM_model.pdf Graphic file (type pdf)
 <./images/LDM_model.pdf>
 
-Overfull \vbox (23.22382pt too high) detected at line 381
+Overfull \vbox (23.22382pt too high) detected at line 383
  []
 
 
@@ -1338,12 +1346,46 @@ File: ./images/StableSR.png Graphic file (type bmp)
 [26
 
 ]
-Overfull \vbox (25.39024pt too high) detected at line 417
+Overfull \vbox (25.39024pt too high) detected at line 419
  []
 
 
 
 [27
+
+]
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[<...>]{<...>}' to define
+(xeCJK)                it.
+
+
+
+[28
+
+]
+\openout4 = `report.vrb'.
+
+ (./report.vrb)
+
+[29
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 537.
+
+
+LaTeX Font Warning: Font shape `TU/SourceHanSansCN(0)/m/it' undefined
+(Font)              using `TU/SourceHanSansCN(0)/m/n' instead on input line 537.
+
+
+
+[30
+
+]
+
+[31
 
 ]
 \tf@nav=\write6
@@ -1360,16 +1402,20 @@ Overfull \vbox (25.39024pt too high) detected at line 417
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2022/07/14>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: A28DD3BB530338526E4B5887D12550AF;1166.
  ) 
 Here is how much of TeX's memory you used:
- 33804 strings out of 468389
- 762336 string characters out of 5436947
- 1150863 words of memory out of 5000000
- 61610 multiletter control sequences out of 15000+600000
- 641306 words of font info for 119 fonts, out of 8000000 for 9000
+ 34510 strings out of 468389
+ 785874 string characters out of 5436947
+ 1184631 words of memory out of 5000000
+ 62297 multiletter control sequences out of 15000+600000
+ 641354 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,13n,126p,1873b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,126p,1873b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (27 pages, 119596 bytes).
+Output written on report.xdv (31 pages, 163736 bytes).
