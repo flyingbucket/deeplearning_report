@@ -56,7 +56,7 @@
 \setbeamertemplate{caption label separator}{.}
 
 \title{扩散模型在图像重建与生成任务中的应用}
-\author{李孟霖}
+\author{李孟霖 2311067}
 \date{\today}
 %---Document Begins---
 \begin{document}
@@ -65,6 +65,11 @@
 \end{frame}
 \section{DDPM}
 \begin{frame}
+\textbf{Denoising Diffusion Probabilistic Models}
+
+NeruIPS 2020
+\end{frame}
+\begin{frame}{基本思路}
 Denoising Diffusion Probabilistic Models(DDPM)通过逐步添加噪声破坏图像，
 再用反向过程逐步去噪重建图像。
 
@@ -101,18 +106,24 @@ Denoising Diffusion Probabilistic Models(DDPM)通过逐步添加噪声破坏图�
 
 \textbf{1. 变分下界（ELBO）分解：}
 \[
-\log p_\theta(x_0) \geq \text{ELBO} = L_T + \sum_{t=2}^T L_{t-1} + L_0
+  \log p_\theta(x_0) \geq \text{ELBO} = -[L_T + \sum_{t=2}^T L_{t-1} + L_0]
 \]
-- $L_T$ 是固定常数，可忽略
-- $L_{t-1}$ 是主要的训练目标项（KL 散度）
-- $L_0$ 是重建项（有时也忽略）
+\begin{itemize}
+  \item $-L_T$ 是固定常数，可忽略
+  \item $-L_{t-1}$ 是主要的训练目标项（KL 散度）
+  \item $-L_0$ 是重建项（有时也忽略）
+\end{itemize}
+\end{frame}
 
+\begin{frame}{DDPM 损失函数构造与简化}
 \textbf{2. 反向过程建模为高斯分布：}
 \[
 p_\theta(x_{t-1}|x_t) = \mathcal{N}(\mu_\theta(x_t, t), \sigma_t^2 I)
 \]
-- 其中 $\sigma_t^2$ 为固定超参数，不学习
-- $\mu_\theta$ 为模型（如 U-Net）输出
+\begin{itemize}
+  \item 其中 $\sigma_t^2$ 为固定超参数，不学习
+  \item $\mu_\theta$ 为模型（如 U-Net）输出
+\end{itemize}
 \end{frame}
 \begin{frame}{DDPM 损失函数构造与简化}
 \textbf{3. 损失函数重写为预测后验均值：}

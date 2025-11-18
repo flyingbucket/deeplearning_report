@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.23)  3 NOV 2025 11:19
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.8.30)  10 NOV 2025 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,24 +6,24 @@ entering extended mode
 **report.tex
 (./report.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
+L3 programming layer <2025-08-13>
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2025/08/13 v3.76 A class for typesetting presentations
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count271
 )
 \beamer@tempbox=\box53
 \beamer@tempcount=\count272
 \c@beamerpauses=\count273
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
 \beamer@slideinframe=\count274
 \beamer@minimum=\count275
 \beamer@decode@box=\box54
 )
 \beamer@commentbox=\box55
 \beamer@modecount=\count276
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 \headdp=\dimen148
@@ -69,15 +69,15 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \beamer@sectionadjust=\count294
 \beamer@toclastsection=\count295
 \beamer@tocsectionnumber=\count296
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 ))
 \beamer@paperwidth=\skip50
 \beamer@paperheight=\skip51
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count297
@@ -92,20 +92,20 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen170
 \Gm@layoutvoffset=\dimen171
 \Gm@dimlist=\toks18
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen172
 \pgfutil@tempdimb=\dimen173
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box62
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-14 v3.1.11 (3.1.11)
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks20
 \pgfkeys@temptoks=\toks21
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks22
-))) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+))) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
 \pgf@x=\dimen174
 \pgf@xa=\dimen175
 \pgf@xb=\dimen176
@@ -118,35 +118,35 @@ Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 \c@pgf@countb=\count301
 \c@pgf@countc=\count302
 \c@pgf@countd=\count303
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen182
 \pgfmath@count=\count304
 \pgfmath@box=\box63
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count305
-))) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+))) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2025/09/29 v5.0o Graphics/color driver for xetex
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen183
 \Gin@req@width=\dimen184
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-14 v3.1.11 (3.1.11)
 \pgf@x=\dimen185
 \pgf@y=\dimen186
 \pgf@xa=\dimen187
@@ -167,32 +167,32 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
 \pgf@sys@id@count=\count310
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-14 v3.1.11 (3.1.11)
 )
 Driver file for pgf: pgfsys-xetex.def
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
-File: pgfsys-xetex.def 2025-08-29 v3.1.11a (3.1.11a)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2025-08-14 v3.1.11 (3.1.11)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2025-08-14 v3.1.11 (3.1.11)
+
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-14 v3.1.11 (3.1.11)
 )
 \pgfsys@objnum=\count311
-))) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfsyssoftpath@smallbuffer@items=\count312
 \pgfsyssoftpath@bigbuffer@items=\count313
-)
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-14 v3.1.11 (3.1.11)
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
@@ -201,10 +201,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-14 v3.1.11 (3.1.11)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@picminx=\dimen195
 \pgf@picmaxx=\dimen196
 \pgf@picminy=\dimen197
@@ -219,106 +219,107 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen262
 \pgf@zx=\dimen263
 \pgf@zy=\dimen264
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@path@lastx=\dimen265
 \pgf@path@lasty=\dimen266
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@shorten@end@additional=\dimen267
 \pgf@shorten@start@additional=\dimen268
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfpic=\box64
 \pgf@hbox=\box65
 \pgf@layerbox@main=\box66
 \pgf@picture@serial@count=\count314
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgflinewidth=\dimen269
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@pt@x=\dimen270
 \pgf@pt@y=\dimen271
 \pgf@pt@temp=\dimen272
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-14 v3.1.11 (3.1.11)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-14 v3.1.11 (3.1.11)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-14 v3.1.11 (3.1.11)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfarrowsep=\dimen273
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@max=\dimen274
 \pgf@sys@shading@range@num=\count315
 \pgf@shadingcount=\count316
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box67
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-14 v3.1.11 (3.1.11)
+\pgfexternal@startupbox=\box67
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-14 v3.1.11 (3.1.11)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-14 v3.1.11 (3.1.11)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-14 v3.1.11 (3.1.11)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-14 v3.1.11 (3.1.11)
+))) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count317
 \XC@countmixins=\count318
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count319
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen275
 \Hy@linkcounter=\count320
 \Hy@pagecounter=\count321
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count322
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4066.
@@ -332,15 +333,15 @@ Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count323
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/url/url.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen276
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count324
@@ -360,22 +361,22 @@ Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hxetex.
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
 \pdfm@box=\box68
 \c@Hy@AnnotLevel=\count326
 \HyField@AnnotCount=\count327
 \Fld@listcount=\count328
 \c@bookmark@seq@number=\count329
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks29
 \symAMSa=\mathgroup4
@@ -383,27 +384,27 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
 Package: sansmathaccent 2020/01/31
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
-))))) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/translator/translator.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2025/08/19 v3.46 KOMA-Script package (file load hooks)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2025/08/19 v3.46 KOMA-Script package (using LaTeX hooks)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2025/08/19 v3.46 KOMA-Script package (logo)
+))))) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
 \beamer@argscount=\count330
 \beamer@lastskipcover=\skip52
 \beamer@trivlistdepth=\count331
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasesection.sty
 \c@lecture=\count332
 \c@part=\count333
 \c@section=\count334
 \c@subsection=\count335
 \c@subsubsection=\count336
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
 \beamer@framebox=\box69
 \beamer@frametitlebox=\box70
 \beamer@zoombox=\box71
@@ -418,23 +419,23 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \beamer@envbody=\toks30
 \framewidth=\dimen280
 \c@framenumber=\count340
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 \beamer@splitbox=\box72
 \beamer@autobreakcount=\count341
 \beamer@autobreaklastheight=\dimen281
 \beamer@frametitletoks=\toks31
 \beamer@framesubtitletoks=\toks32
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+)
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
 \beamer@colheight=\skip57
 \beamer@footins=\box73
-)
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
 \beamer@frameboxcopy=\box74
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
 \beamer@sbttoks=\toks33
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
 \bmb@box=\box75
 \bmb@colorbox=\box76
 \bmb@boxwidth=\dimen282
@@ -446,7 +447,7 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \bmb@prevheight=\dimen288
 )
 \beamer@blockheadheight=\dimen289
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/tools/enumerate.sty
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks34
 )
@@ -455,23 +456,23 @@ Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \c@table=\count343
 \abovecaptionskip=\skip59
 \belowcaptionskip=\skip60
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasenavigationsymbols.tex)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasenavigationsymbols.tex)
 \beamer@section@min@dim=\dimen290
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks35
 \ex@=\dimen291
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen292
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count344
@@ -521,7 +522,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks40
 \thm@bodyfont=\toks41
@@ -534,18 +535,18 @@ Package: amsthm 2020/05/29 v2.20.6
 \dth@everypar=\toks45
 )
 \c@theorem=\count356
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen300
 \beamer@dimb=\dimen301
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
 Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks46
 \pgfopts@list@add@b@toks=\toks47
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememetropolis.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememetropolis.sty
 Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count357
 \calc@Bcount=\count358
@@ -557,30 +558,30 @@ LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count359
 \calc@Cskip=\skip69
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2025-08-14 v3.1.11 (3.1.11)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfnodeparttextbox=\box79
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-14 v3.1.11 (3.1.11)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-14 v3.1.11 (3.1.11)
 \pgf@nodesepstart=\dimen304
 \pgf@nodesepend=\dimen305
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-14 v3.1.11 (3.1.11)
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-14 v3.1.11 (3.1.11)
 \pgffor@iter=\dimen306
 \pgffor@skip=\dimen307
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
-))
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-14 v3.1.11 (3.1.11)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgf@plot@mark@count=\count360
 \pgfplotmarksize=\dimen308
 )
@@ -600,15 +601,15 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikznumberofchildren=\count362
 \tikznumberofcurrentchild=\count363
 \tikz@fig@count=\count364
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfmatrixcurrentrow=\count365
 \pgfmatrixcurrentcolumn=\count366
 \pgf@matrix@numberofcolumns=\count367
 )
 \tikz@expandcount=\count368
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-14 v3.1.11 (3.1.11)
 )))
 \metropolis@titleseparator@linewidth=\skip70
 \metropolis@progressonsectionpage=\skip71
@@ -616,22 +617,22 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \metropolis@blocksep=\skip73
 \metropolis@blockadjust=\skip74
 \metropolis@parskip=\skip75
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamerouterthememetropolis.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamerouterthememetropolis.sty
 Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
 \metropolis@frametitle@padding=\skip76
 \metropolis@progressinheadfoot=\skip77
 \metropolis@progressinheadfoot@linewidth=\skip78
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty
 Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamerfontthememetropolis.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamertheme-metropolis/beamerfontthememetropolis.sty
 Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-09-02 L3 programming layer (loader) 
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-08-13 L3 programming layer (loader) 
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
 \g__graphics_track_int=\count369
 \g__pdfannot_backend_int=\count370
@@ -639,9 +640,9 @@ File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
-Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count372
 \l__fontspec_language_int=\count373
 \l__fontspec_strnum_int=\count374
@@ -656,26 +657,53 @@ Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_tmpa_dim=\dimen317
 \l__fontspec_tmpb_dim=\dimen318
 \l__fontspec_tmpc_dim=\dimen319
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 \c@fontsnotfound=\count383
 
+Package fontspec Info: 
+(fontspec)             Font family 'FiraSansLight(0)' created for font 'Fira
+(fontspec)             Sans Light' with options
+(fontspec)             [Ligatures=TeX,ItalicFont={Fira Sans Light
+(fontspec)             Italic},BoldFont={Fira Sans},BoldItalicFont={Fira Sans
+(fontspec)             Italic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Fira Sans
+(fontspec)             Light/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Fira Sans
+(fontspec)             Light/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Fira
+(fontspec)             Sans/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Fira
+(fontspec)             Sans/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Fira Sans Light
+(fontspec)             Italic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Fira Sans Light
+(fontspec)             Italic/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Fira Sans
+(fontspec)             Italic/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Fira Sans
+(fontspec)             Italic/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
-Package beamerthememetropolis Warning: Could not find Fira Sans fonts on input line 95.
 
 
 Package beamerthememetropolis Warning: Could not find Fira Mono fonts on input line 95.
 
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/ctex/ctex.sty
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/ctex/ctex.sty
 Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty
 Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/ctex/ctexpatch.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/ctex/ctexpatch.sty
 Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/base/fix-cm.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/base/ts1enc.def
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 LaTeX Encoding Info:    Redeclaring text command \capitalcedilla (encoding TS1) on input line 49.
@@ -811,13 +839,13 @@ LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on input
 \l__ctex_tmp_dim=\dimen320
 \g__ctex_section_depth_int=\count385
 \g__ctex_font_size_int=\count386
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
 File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
 Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
 )
 \l__xeCJK_tmp_int=\count387
@@ -880,22 +908,22 @@ LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
 \g__xeCJK_fam_allocation_int=\count397
 \l__xeCJK_verb_case_int=\count398
 \l__xeCJK_verb_exspace_skip=\skip85
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
 File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 ))
 \ccwd=\dimen348
 \l__ctex_ccglue_skip=\skip86
 )
 \l__ctex_ziju_dim=\dimen349
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
 \l__zhnum_scale_int=\count399
 \l__zhnum_tmp_int=\count400
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-plain.def
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-plain.def
 File: ctex-scheme-plain.def 2022/07/14 v2.5.10 Plain scheme for generic (CTEX)
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/ctex/config/ctex.cfg
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
 )
 
@@ -926,7 +954,7 @@ Package fontspec Info:
 
  (./commands.tex)
 Package hyperref Info: Option `unicode' set `true' on input line 17.
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \LTleft=\skip87
 \LTright=\skip88
@@ -944,7 +972,7 @@ Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \c@LT@tables=\count404
 \c@LT@chunks=\count405
 \LT@p@ftn=\toks50
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen351
 \lightrulewidth=\dimen352
@@ -963,17 +991,17 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count408
 \@lastruleclass=\count409
 \@thisrulewidth=\dimen363
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-14 v3.1.11 (3.1.11)
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-14 v3.1.11 (3.1.11)
 \pgfarrowinset=\dimen364
 \pgfarrowlength=\dimen365
 \pgfarrowwidth=\dimen366
 \pgfarrowlinewidth=\dimen367
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen368
 \captionmargin=\dimen369
@@ -984,7 +1012,7 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@parindent=\dimen374
 \caption@hangindent=\dimen375
 Package caption Info: beamer document class detected.
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/caption/caption-beamer.sto
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/caption/caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the beamer document classes (AR)
 ))
 \c@caption@flags=\count410
@@ -993,46 +1021,46 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
 Package caption Info: longtable package is loaded.
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
+
+(/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count412
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count413
-)
-(/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/float/float.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count414
 \float@exts=\toks51
 \float@box=\box92
 \@float@everytoks=\toks52
 \@floatcapt=\box93
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/svg/svg.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2025/08/19 v3.46 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \c@svg@param@lastpage=\count415
 \svg@box=\box94
 \c@svg@param@currpage=\count416
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/transparent/transparent.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2025-06-23 v1.6 Transparency with color stacks
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
 Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color stack (HO)
 
 
 Package transparent Warning: Loading aborted, because pdfTeX is not running in PDF mode.
 
-)) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+)) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen376
 \ar@mcellbox=\box95
@@ -1041,20 +1069,20 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \extratabsurround=\skip91
 \backup@length=\skip92
 \ar@cellbox=\box96
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box97
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/algorithms/algorithm.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/algorithms/algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks54
 \c@algorithm=\count417
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -1070,7 +1098,7 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip95
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/tools/bm.sty
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -1169,17 +1197,17 @@ Package hyperref Info: Link coloring OFF on input line 62.
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
-) (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+) (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1196,11 +1224,11 @@ Overfull \vbox (15.63992pt too high) detected at line 65
 
 ]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
- (/home/flyingbucket/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/home/flyingbucket/apps/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
@@ -1215,14 +1243,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [4
 
 ]
-Overfull \vbox (44.56213pt too high) detected at line 96
- []
-
-
 
 [5
 
 ]
+Overfull \vbox (47.64417pt too high) detected at line 101
+ []
+
+
 
 [6
 
@@ -1239,39 +1267,39 @@ Overfull \vbox (44.56213pt too high) detected at line 96
 [9
 
 ]
-File: images/DDPM_UNet.png Graphic file (type bmp)
-<images/DDPM_UNet.png>
-
-Overfull \vbox (53.22586pt too high) detected at line 184
- []
-
-
 
 [10
 
 ]
-File: images/DDPM_down-up-block.png Graphic file (type bmp)
-<images/DDPM_down-up-block.png>
-
-Overfull \vbox (59.03542pt too high) detected at line 192
- []
-
-
 
 [11
 
 ]
-File: ./images/stochastic_decoding_single.jpg Graphic file (type bmp)
-<./images/stochastic_decoding_single.jpg>
+File: images/DDPM_UNet.png Graphic file (type bmp)
+<images/DDPM_UNet.png>
+
+Overfull \vbox (56.71587pt too high) detected at line 195
+ []
+
 
 
 [12
 
 ]
+File: images/DDPM_down-up-block.png Graphic file (type bmp)
+<images/DDPM_down-up-block.png>
+
+Overfull \vbox (62.20543pt too high) detected at line 203
+ []
+
+
 
 [13
 
 ]
+File: ./images/stochastic_decoding_single.jpg Graphic file (type bmp)
+<./images/stochastic_decoding_single.jpg>
+
 
 [14
 
@@ -1280,6 +1308,10 @@ File: ./images/stochastic_decoding_single.jpg Graphic file (type bmp)
 [15
 
 ]
+Overfull \vbox (2.96556pt too high) detected at line 243
+ []
+
+
 
 [16
 
@@ -1288,27 +1320,23 @@ File: ./images/stochastic_decoding_single.jpg Graphic file (type bmp)
 [17
 
 ]
-Overfull \vbox (5.00331pt too high) detected at line 292
- []
-
-
 
 [18
 
 ]
-Overfull \vbox (21.94763pt too high) detected at line 325
- []
-
-
 
 [19
 
 ]
+Overfull \vbox (8.25333pt too high) detected at line 303
+ []
+
+
 
 [20
 
 ]
-Overfull \vbox (18.85838pt too high) detected at line 351
+Overfull \vbox (25.02965pt too high) detected at line 336
  []
 
 
@@ -1320,17 +1348,14 @@ Overfull \vbox (18.85838pt too high) detected at line 351
 [22
 
 ]
+Overfull \vbox (22.19638pt too high) detected at line 362
+ []
+
+
 
 [23
 
 ]
-File: ./images/LDM_model.pdf Graphic file (type pdf)
-<./images/LDM_model.pdf>
-
-Overfull \vbox (23.22382pt too high) detected at line 386
- []
-
-
 
 [24
 
@@ -1339,19 +1364,38 @@ Overfull \vbox (23.22382pt too high) detected at line 386
 [25
 
 ]
-File: ./images/StableSR.png Graphic file (type bmp)
-<./images/StableSR.png>
+File: ./images/LDM_model.pdf Graphic file (type pdf)
+<use ./images/LDM_model.pdf>
+
+Overfull \vbox (26.39383pt too high) detected at line 397
+ []
+
 
 
 [26
 
 ]
-Overfull \vbox (25.39024pt too high) detected at line 422
+
+[27
+
+]
+File: ./images/StableSR.png Graphic file (type bmp)
+<./images/StableSR.png>
+
+Overfull \vbox (0.94183pt too high) detected at line 407
  []
 
 
 
-[27
+[28
+
+]
+Overfull \vbox (28.56026pt too high) detected at line 433
+ []
+
+
+
+[29
 
 ]
 
@@ -1362,30 +1406,27 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 
 
 
-[28
+[30
 
 ]
 \openout4 = `report.vrb'.
 
  (./report.vrb)
 
-[29
+[31
 
 ]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 540.
-
 
 LaTeX Font Warning: Font shape `TU/SourceHanSansCN(0)/m/it' undefined
-(Font)              using `TU/SourceHanSansCN(0)/m/n' instead on input line 540.
+(Font)              using `TU/SourceHanSansCN(0)/m/n' instead on input line 551.
 
 
 
-[30
+[32
 
 ]
 
-[31
+[33
 
 ]
 \tf@nav=\write6
@@ -1407,15 +1448,15 @@ L3 programming layer <2022/07/14>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: A28DD3BB530338526E4B5887D12550AF;1166.
+(rerunfilecheck)             Checksum: 07A8E25431A94A6DEE9601BA69C59986;1167.
  ) 
 Here is how much of TeX's memory you used:
- 34510 strings out of 468389
- 785874 string characters out of 5436947
- 1184631 words of memory out of 5000000
- 62297 multiletter control sequences out of 15000+600000
- 641354 words of font info for 125 fonts, out of 8000000 for 9000
+ 34558 strings out of 468441
+ 790111 string characters out of 5439576
+ 1184113 words of memory out of 5000000
+ 62283 multiletter control sequences out of 15000+600000
+ 640554 words of font info for 137 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,13n,126p,1873b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,142p,1873b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.xdv (31 pages, 164408 bytes).
+Output written on report.xdv (33 pages, 169908 bytes).
